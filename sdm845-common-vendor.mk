@@ -527,4 +527,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/media/lcd_density.txt:system/media/lcd_density.txt \
     vendor/samsung/sdm845-common/proprietary/media/percentage.spi:system/media/percentage.spi \
     vendor/samsung/sdm845-common/proprietary/media/temperature_limit_usb.spi:system/media/temperature_limit_usb.spi \
-    vendor/samsung/sdm845-common/proprietary/media/water_protection_usb.spi:system/media/water_protection_usb.spi
+    vendor/samsung/sdm845-common/proprietary/media/water_protection_usb.spi:system/media/water_protection_usb.spi \
+    vendor/samsung/sdm845-common/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/libdiag_system.so:system/lib64/libdiag_system.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so 
+    
