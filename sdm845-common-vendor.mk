@@ -570,5 +570,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsonivox.so:system/lib64/vndk-compat/libsonivox.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsoundtrigger.so:system/lib64/vndk-compat/libsoundtrigger.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libstagefright_xmlparser@1.0.so:system/lib64/vndk-compat/libstagefright_xmlparser@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libvulkan.so:system/lib64/vndk-compat/libvulkan.so
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libvulkan.so:system/lib64/vndk-compat/libvulkan.so \
+    vendor/samsung/sdm845-common/proprietary/etc/permissions/qti_libpermissions.xml:system/etc/permissions/qti_libpermissions.xml \
+    vendor/samsung/sdm845-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml
     
