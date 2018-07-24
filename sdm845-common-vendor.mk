@@ -66,11 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.hidl.token@1.0-utils.so:system/lib/vndk-compat/android.hidl.token@1.0-utils.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.hidl.token@1.0.so:system/lib/vndk-compat/android.hidl.token@1.0.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.system.wifi.keystore@1.0.so:system/lib/vndk-compat/android.system.wifi.keystore@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libAstcEnc.so:system/lib/vndk-compat/libAstcEnc.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libEGL.so:system/lib/vndk-compat/libEGL.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libGLESOverlay.so:system/lib/vndk-compat/libGLESOverlay.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libMaliCounterCapture.so:system/lib/vndk-compat/libMaliCounterCapture.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libSEC_EGL.so:system/lib/vndk-compat/libSEC_EGL.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libandroid_runtime.so:system/lib/vndk-compat/libandroid_runtime.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libaudioclient.so:system/lib/vndk-compat/libaudioclient.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libaudioroute.so:system/lib/vndk-compat/libaudioroute.so \
@@ -83,7 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libcrypto_utils.so:system/lib/vndk-compat/libcrypto_utils.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libdebuggerd_client.so:system/lib/vndk-compat/libdebuggerd_client.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libdiskconfig.so:system/lib/vndk-compat/libdiskconfig.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libedmnativehelper.so:system/lib/vndk-compat/libedmnativehelper.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libevent.so:system/lib/vndk-compat/libevent.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libexif.so:system/lib/vndk-compat/libexif.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libexpat.so:system/lib/vndk-compat/libexpat.so \
@@ -91,10 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libgatekeeper.so:system/lib/vndk-compat/libgatekeeper.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libgui.so:system/lib/vndk-compat/libgui.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libhardware_legacy.so:system/lib/vndk-compat/libhardware_legacy.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libhwastc.so:system/lib/vndk-compat/libhwastc.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libhwui.so:system/lib/vndk-compat/libhwui.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libhwuibridge.so:system/lib/vndk-compat/libhwuibridge.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libimagefilter.so:system/lib/vndk-compat/libimagefilter.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libinput.so:system/lib/vndk-compat/libinput.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libjavacore.so:system/lib/vndk-compat/libjavacore.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libjpeg.so:system/lib/vndk-compat/libjpeg.so \
@@ -103,10 +95,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libldacBT_abr.so:system/lib/vndk-compat/libldacBT_abr.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libldacBT_enc.so:system/lib/vndk-compat/libldacBT_enc.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/liblz4.so:system/lib/vndk-compat/liblz4.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmctraster.so:system/lib/vndk-compat/libmctraster.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmedia.so:system/lib/vndk-compat/libmedia.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmedia_helper.so:system/lib/vndk-compat/libmedia_helper.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmedia_jni.so:system/lib/vndk-compat/libmedia_jni.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmediacodecservice.so:system/lib/vndk-compat/libmediacodecservice.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmediadrm.so:system/lib/vndk-compat/libmediadrm.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmemtrack.so:system/lib/vndk-compat/libmemtrack.so \
@@ -118,19 +108,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libnl.so:system/lib/vndk-compat/libnl.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libopus.so:system/lib/vndk-compat/libopus.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpcre2.so:system/lib/vndk-compat/libpcre2.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpersona.so:system/lib/vndk-compat/libpersona.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpiex.so:system/lib/vndk-compat/libpiex.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpng.so:system/lib/vndk-compat/libpng.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpower.so:system/lib/vndk-compat/libpower.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libprocinfo.so:system/lib/vndk-compat/libprocinfo.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libprotobuf-cpp-full.so:system/lib/vndk-compat/libprotobuf-cpp-full.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libprotobuf-cpp-lite.so:system/lib/vndk-compat/libprotobuf-cpp-lite.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libquramimagecodec.so:system/lib/vndk-compat/libquramimagecodec.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libradio.so:system/lib/vndk-compat/libradio.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libradio_metadata.so:system/lib/vndk-compat/libradio_metadata.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/librilutils.so:system/lib/vndk-compat/librilutils.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libsamsungeffect.so:system/lib/vndk-compat/libsamsungeffect.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libsdp_crypto.so:system/lib/vndk-compat/libsdp_crypto.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libselinux.so:system/lib/vndk-compat/libselinux.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libsensor.so:system/lib/vndk-compat/libsensor.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libskia.so:system/lib/vndk-compat/libskia.so \
@@ -163,7 +149,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libstagefright_soft_vpxdec.so:system/lib/vndk-compat/libstagefright_soft_vpxdec.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libstagefright_soft_vpxenc.so:system/lib/vndk-compat/libstagefright_soft_vpxenc.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libstagefright_xmlparser@1.0.so:system/lib/vndk-compat/libstagefright_xmlparser@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libsts_values.so:system/lib/vndk-compat/libsts_values.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libsuspend.so:system/lib/vndk-compat/libsuspend.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libsysutils.so:system/lib/vndk-compat/libsysutils.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libtinyalsa.so:system/lib/vndk-compat/libtinyalsa.so \
@@ -171,7 +156,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libui.so:system/lib/vndk-compat/libui.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libusbhost.so:system/lib/vndk-compat/libusbhost.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libutils.so:system/lib/vndk-compat/libutils.so \
-    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libvicom_recon.so:system/lib/vndk-compat/libvicom_recon.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libvintf.so:system/lib/vndk-compat/libvintf.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libvixl-arm.so:system/lib/vndk-compat/libvixl-arm.so \
     vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libvixl-arm64.so:system/lib/vndk-compat/libvixl-arm64.so \
@@ -260,11 +244,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/android.hidl.token@1.0-utils.so:system/lib64/vndk-compat/android.hidl.token@1.0-utils.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/android.hidl.token@1.0.so:system/lib64/vndk-compat/android.hidl.token@1.0.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/android.system.wifi.keystore@1.0.so:system/lib64/vndk-compat/android.system.wifi.keystore@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libAstcEnc.so:system/lib64/vndk-compat/libAstcEnc.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libEGL.so:system/lib64/vndk-compat/libEGL.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libGLESOverlay.so:system/lib64/vndk-compat/libGLESOverlay.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libMaliCounterCapture.so:system/lib64/vndk-compat/libMaliCounterCapture.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libSEC_EGL.so:system/lib64/vndk-compat/libSEC_EGL.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libandroid_runtime.so:system/lib64/vndk-compat/libandroid_runtime.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libaudioclient.so:system/lib64/vndk-compat/libaudioclient.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libaudioroute.so:system/lib64/vndk-compat/libaudioroute.so \
@@ -279,7 +259,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libdebuggerd_client.so:system/lib64/vndk-compat/libdebuggerd_client.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libdiskconfig.so:system/lib64/vndk-compat/libdiskconfig.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libdumpstateutil.so:system/lib64/vndk-compat/libdumpstateutil.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libedmnativehelper.so:system/lib64/vndk-compat/libedmnativehelper.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libevent.so:system/lib64/vndk-compat/libevent.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libexif.so:system/lib64/vndk-compat/libexif.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libexpat.so:system/lib64/vndk-compat/libexpat.so \
@@ -287,10 +266,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libgatekeeper.so:system/lib64/vndk-compat/libgatekeeper.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libgui.so:system/lib64/vndk-compat/libgui.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libhardware_legacy.so:system/lib64/vndk-compat/libhardware_legacy.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libhwastc.so:system/lib64/vndk-compat/libhwastc.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libhwui.so:system/lib64/vndk-compat/libhwui.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libhwuibridge.so:system/lib64/vndk-compat/libhwuibridge.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libimagefilter.so:system/lib64/vndk-compat/libimagefilter.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libinput.so:system/lib64/vndk-compat/libinput.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libjavacore.so:system/lib64/vndk-compat/libjavacore.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libjpeg.so:system/lib64/vndk-compat/libjpeg.so \
@@ -299,10 +275,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libldacBT_abr.so:system/lib64/vndk-compat/libldacBT_abr.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libldacBT_enc.so:system/lib64/vndk-compat/libldacBT_enc.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/liblz4.so:system/lib64/vndk-compat/liblz4.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmctraster.so:system/lib64/vndk-compat/libmctraster.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmedia.so:system/lib64/vndk-compat/libmedia.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmedia_helper.so:system/lib64/vndk-compat/libmedia_helper.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmedia_jni.so:system/lib64/vndk-compat/libmedia_jni.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmediadrm.so:system/lib64/vndk-compat/libmediadrm.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmemtrack.so:system/lib64/vndk-compat/libmemtrack.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmemunreachable.so:system/lib64/vndk-compat/libmemunreachable.so \
@@ -314,19 +288,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libopus.so:system/lib64/vndk-compat/libopus.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpagemap.so:system/lib64/vndk-compat/libpagemap.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpcre2.so:system/lib64/vndk-compat/libpcre2.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpersona.so:system/lib64/vndk-compat/libpersona.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpiex.so:system/lib64/vndk-compat/libpiex.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpng.so:system/lib64/vndk-compat/libpng.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpower.so:system/lib64/vndk-compat/libpower.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libprocinfo.so:system/lib64/vndk-compat/libprocinfo.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libprotobuf-cpp-full.so:system/lib64/vndk-compat/libprotobuf-cpp-full.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libprotobuf-cpp-lite.so:system/lib64/vndk-compat/libprotobuf-cpp-lite.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libquramimagecodec.so:system/lib64/vndk-compat/libquramimagecodec.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libradio.so:system/lib64/vndk-compat/libradio.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libradio_metadata.so:system/lib64/vndk-compat/libradio_metadata.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/librilutils.so:system/lib64/vndk-compat/librilutils.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsamsungeffect.so:system/lib64/vndk-compat/libsamsungeffect.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsdp_crypto.so:system/lib64/vndk-compat/libsdp_crypto.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libselinux.so:system/lib64/vndk-compat/libselinux.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsensor.so:system/lib64/vndk-compat/libsensor.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libskia.so:system/lib64/vndk-compat/libskia.so \
@@ -358,7 +328,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libstagefright_soft_vorbisdec.so:system/lib64/vndk-compat/libstagefright_soft_vorbisdec.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libstagefright_soft_vpxdec.so:system/lib64/vndk-compat/libstagefright_soft_vpxdec.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libstagefright_soft_vpxenc.so:system/lib64/vndk-compat/libstagefright_soft_vpxenc.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsts_values.so:system/lib64/vndk-compat/libsts_values.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsuspend.so:system/lib64/vndk-compat/libsuspend.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsysutils.so:system/lib64/vndk-compat/libsysutils.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libtinyalsa.so:system/lib64/vndk-compat/libtinyalsa.so \
@@ -366,7 +335,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libui.so:system/lib64/vndk-compat/libui.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libusbhost.so:system/lib64/vndk-compat/libusbhost.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libutils.so:system/lib64/vndk-compat/libutils.so \
-    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libvicom_recon.so:system/lib64/vndk-compat/libvicom_recon.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libvintf.so:system/lib64/vndk-compat/libvintf.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libvixl-arm.so:system/lib64/vndk-compat/libvixl-arm.so \
     vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libvixl-arm64.so:system/lib64/vndk-compat/libvixl-arm64.so \
@@ -537,5 +505,70 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/samsung/sdm845-common/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/samsung/sdm845-common/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
-    vendor/samsung/sdm845-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so 
+    vendor/samsung/sdm845-common/proprietary/lib/libdiag_system.so:system/lib/libdiag_system.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.frameworks.displayservice@1.0.so:system/lib/vndk-compat/android.frameworks.displayservice@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.hardware.automotive.evs@1.0.so:system/lib/vndk-compat/android.hardware.automotive.evs@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.hardware.automotive.vehicle@2.0.so:system/lib/vndk-compat/android.hardware.automotive.vehicle@2.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.hardware.dumpstate@1.0.so:system/lib/vndk-compat/android.hardware.dumpstate@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.hardware.health@1.0.so:system/lib/vndk-compat/android.hardware.health@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/android.system.net.netd@1.0.so:system/lib/vndk-compat/android.system.net.netd@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libETC1.so:system/lib/vndk-compat/libETC1.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libRScpp.so:system/lib/vndk-compat/libRScpp.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libandroid.so:system/lib/vndk-compat/libandroid.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libandroidfw.so:system/lib/vndk-compat/libandroidfw.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libappfuse.so:system/lib/vndk-compat/libappfuse.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libaudiomanager.so:system/lib/vndk-compat/libaudiomanager.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libcamera_client.so:system/lib/vndk-compat/libcamera_client.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libcurl.so:system/lib/vndk-compat/libcurl.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libdng_sdk.so:system/lib/vndk-compat/libdng_sdk.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libdumpstateutil.so:system/lib/vndk-compat/libdumpstateutil.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libharfbuzz_ng.so:system/lib/vndk-compat/libharfbuzz_ng.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libicui18n.so:system/lib/vndk-compat/libicui18n.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libicuuc.so:system/lib/vndk-compat/libicuuc.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libimg_utils.so:system/lib/vndk-compat/libimg_utils.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libjnigraphics.so:system/lib/vndk-compat/libjnigraphics.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmediametrics.so:system/lib/vndk-compat/libmediametrics.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libmediautils.so:system/lib/vndk-compat/libmediautils.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libnativebridge.so:system/lib/vndk-compat/libnativebridge.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libnativehelper.so:system/lib/vndk-compat/libnativehelper.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libnativewindow.so:system/lib/vndk-compat/libnativewindow.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpackagelistparser.so:system/lib/vndk-compat/libpackagelistparser.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpagemap.so:system/lib/vndk-compat/libpagemap.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpdfium.so:system/lib/vndk-compat/libpdfium.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libpowermanager.so:system/lib/vndk-compat/libpowermanager.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libprocessgroup.so:system/lib/vndk-compat/libprocessgroup.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libsonivox.so:system/lib/vndk-compat/libsonivox.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libsoundtrigger.so:system/lib/vndk-compat/libsoundtrigger.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libvulkan.so:system/lib/vndk-compat/libvulkan.so \
+    vendor/samsung/sdm845-common/proprietary/lib/vndk-compat/libwifi-system.so:system/lib/vndk-compat/libwifi-system.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/android.hardware.automotive.evs@1.0.so:system/lib64/vndk-compat/android.hardware.automotive.evs@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/android.hardware.automotive.vehicle@2.0.so:system/lib64/vndk-compat/android.hardware.automotive.vehicle@2.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/android.hardware.dumpstate@1.0.so:system/lib64/vndk-compat/android.hardware.dumpstate@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/android.system.net.netd@1.0.so:system/lib64/vndk-compat/android.system.net.netd@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libETC1.so:system/lib64/vndk-compat/libETC1.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libRScpp.so:system/lib64/vndk-compat/libRScpp.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libandroid.so:system/lib64/vndk-compat/libandroid.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libandroidfw.so:system/lib64/vndk-compat/libandroidfw.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libappfuse.so:system/lib64/vndk-compat/libappfuse.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libaudiomanager.so:system/lib64/vndk-compat/libaudiomanager.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libcamera_client.so:system/lib64/vndk-compat/libcamera_client.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libdng_sdk.so:system/lib64/vndk-compat/libdng_sdk.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libharfbuzz_ng.so:system/lib64/vndk-compat/libharfbuzz_ng.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libicui18n.so:system/lib64/vndk-compat/libicui18n.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libicuuc.so:system/lib64/vndk-compat/libicuuc.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libimg_utils.so:system/lib64/vndk-compat/libimg_utils.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libjnigraphics.so:system/lib64/vndk-compat/libjnigraphics.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmediametrics.so:system/lib64/vndk-compat/libmediametrics.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libmediautils.so:system/lib64/vndk-compat/libmediautils.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libnativebridge.so:system/lib64/vndk-compat/libnativebridge.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libnativehelper.so:system/lib64/vndk-compat/libnativehelper.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libnativewindow.so:system/lib64/vndk-compat/libnativewindow.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpackagelistparser.so:system/lib64/vndk-compat/libpackagelistparser.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpdfium.so:system/lib64/vndk-compat/libpdfium.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libpowermanager.so:system/lib64/vndk-compat/libpowermanager.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libprocessgroup.so:system/lib64/vndk-compat/libprocessgroup.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsonivox.so:system/lib64/vndk-compat/libsonivox.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libsoundtrigger.so:system/lib64/vndk-compat/libsoundtrigger.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libstagefright_xmlparser@1.0.so:system/lib64/vndk-compat/libstagefright_xmlparser@1.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vndk-compat/libvulkan.so:system/lib64/vndk-compat/libvulkan.so
     
