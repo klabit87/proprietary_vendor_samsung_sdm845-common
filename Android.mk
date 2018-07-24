@@ -18,4 +18,15 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter star2qlte starqlte,$(TARGET_DEVICE)),)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := ImsTelephonyService
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := proprietary/priv-app/ImsTelephonyService/ImsTelephonyService.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
 endif
