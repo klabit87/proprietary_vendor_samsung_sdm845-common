@@ -577,10 +577,14 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/sdm845-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/samsung/sdm845-common/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/samsung/sdm845-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
+    vendor/samsung/sdm845-common/proprietary/etc/permissions/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
     vendor/samsung/sdm845-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/samsung/sdm845-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/samsung/sdm845-common/proprietary/framework/com.quicinc.cne.api-V1.0-java.jar:system/framework/com.quicinc.cne.api-V1.0-java.jar \
     vendor/samsung/sdm845-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/samsung/sdm845-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
+    vendor/samsung/sdm845-common/proprietary/lib/vendor.samsung.security.skeymaster@3.0.so:system/lib/vendor.samsung.security.skeymaster@3.0.so \
+    vendor/samsung/sdm845-common/proprietary/lib64/vendor.samsung.security.skeymaster@3.0.so:system/lib64/vendor.samsung.security.skeymaster@3.0.so
+    
     
     
