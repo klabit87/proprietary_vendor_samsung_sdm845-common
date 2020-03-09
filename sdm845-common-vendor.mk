@@ -19,9 +19,13 @@ VENDOR_PATH=vendor/samsung/sdm845-common
 include vendor/samsung/sdm845-common/find-vendor-blobs.mk
 
 PRODUCT_PACKAGES += \
-    ImsTelephonyService \
-    HotwordEnrollmentOKGoogleWCD9340 \
-    HotwordEnrollmentXGoogleWCD9340
+    ImsSettings \
+    HotwordEnrollmentOKGoogleExWCD9340 \
+    HotwordEnrollmentXGoogleExWCD9340 \
+    vzw_msdc_api \
+    imsservice \
+    QAS_DVC_MSP_VZW \
+    VZWAPNService_sku
 
 # common proprietary blobs
 PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/sdm845-common/proprietary)

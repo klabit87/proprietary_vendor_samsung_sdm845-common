@@ -8,6 +8,8 @@
 # Thus, rilcarrier is imported before common rc, like init.rilchip.rc
 import /init.rilmptcp.rc
 
+import /init.rilmcpsd.rc
+
 # AT Distributor for factory test
 service at_distributor /system/bin/at_distributor
     class late_start
@@ -52,6 +54,8 @@ on post-fs-data
     # For Samsung members
     mkdir /data/log/err 0775 radio log
     chown radio log /data/log/err
+    mkdir /data/vendor/log/err 0775 radio log
+    chown radio log /data/vendor/log/err	
     # For KOR Model SKU
     chown radio system /efs/imei/replace_code.dat
     chmod 0664 /efs/imei/replace_code.dat
@@ -59,12 +63,26 @@ on post-fs-data
 on property:init.svc.netd=restarting
     start recover_radio
 
+on property:init.svc.ril-daemon=restarting
+    setprop ril.phone.connected.slot1 false
+    setprop ril.halservice.registered.slot1 false    
+
+on property:init.svc.ril-daemon1=restarting
+    setprop ril.phone.connected.slot2 false
+    setprop ril.halservice.registered.slot2 false
+
 on post-fs-data
     mkdir /efs/imei 0775 root radio
     restorecon -R /efs/imei
 
+on load_persist_props_action
+    setprop ro.telephony.default_network ${ro.vendor.radio.default_network}
+
 on property:ro.telephony.default_network=*
-    setprop ro.vendor.sec.radio.def_network ${ro.telephony.default_network}
+    setprop ro.ril.def_network_after_check_tdscdma ${ro.telephony.default_network}
+
+on property:ro.ril.def_network_after_check_tdscdma=*
+    setprop ro.telephony.default_network ${ro.ril.def_network_after_check_tdscdma}
 
 on property:ro.boot.sales.param.offset=*
     setprop ro.vendor.boot.sales.param.offset ${ro.boot.sales.param.offset}
@@ -84,14 +102,20 @@ on property:ro.boot.omcnw.param.offset=*
 on property:ro.boot.debug_level=*
     setprop ro.vendor.boot.debug_level ${ro.boot.debug_level}
 
+on property:ro.boot.sn.param.offset=*
+    setprop ro.vendor.boot.sn.param.offset ${ro.boot.sn.param.offset}
+
+on property:ro.build.characteristics=*
+    setprop ro.vendor.build.characteristics ${ro.build.characteristics}
+
 on property:ro.product_ship=*    
     setprop ro.vendor.product_ship ${ro.product_ship}
 
 on property:ro.boot.warranty_bit=*    
     setprop ro.vendor.boot.warranty_bit ${ro.boot.warranty_bit}
 
-on property:ro.multisim.simslotcount=*    
-    setprop ro.vendor.multisim.simslotcount ${ro.multisim.simslotcount}
+on property:ro.boot.force_upload=*
+    setprop ro.vendor.boot.force_upload ${ro.boot.force_upload}
 
 on property:ro.ril.cdma.home.operator.alpha=*    
     setprop ro.cdma.home.operator.alpha ${ro.ril.cdma.home.operator.alpha}
@@ -116,4 +140,3 @@ on property:gsm.current.vsid2=*
 
 on property:ro.factory.factory_binary=*    
     setprop ro.vendor.factory_binary ${ro.factory.factory_binary}
-

@@ -19,20 +19,9 @@ LOCAL_PATH := $(call my-dir)
 ifneq ($(filter star2qlte starqlte,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ImsTelephonyService
+LOCAL_MODULE := HotwordEnrollmentOKGoogleExWCD9340
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/priv-app/ImsTelephonyService/ImsTelephonyService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := HotwordEnrollmentOKGoogleWCD9340
-LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/priv-app/HotwordEnrollmentOKGoogleWCD9340/HotwordEnrollmentOKGoogleWCD9340.apk
+LOCAL_SRC_FILES := system/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -42,9 +31,45 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := HotwordEnrollmentXGoogleWCD9340
+LOCAL_MODULE := HotwordEnrollmentXGoogleExWCD9340
 LOCAL_MODULE_OWNER := samsung
-LOCAL_SRC_FILES := system/priv-app/HotwordEnrollmentXGoogleWCD9340/HotwordEnrollmentXGoogleWCD9340.apk
+LOCAL_SRC_FILES := system/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := imsservice
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := system/priv-app/imsservice/imsservice.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := QAS_DVC_MSP_VZW
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := system/priv-app/QAS_DVC_MSP_VZW/QAS_DVC_MSP_VZW.apk
+LOCAL_CERTIFICATE := PRESIGNED
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := VZWAPNService_sku
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := system/priv-app/VZWAPNService_sku/VZWAPNService_sku.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -57,6 +82,17 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := ImsSettings
 LOCAL_MODULE_OWNER := samsung
 LOCAL_SRC_FILES := system/app/ImsSettings/ImsSettings.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vzw_msdc_api
+LOCAL_MODULE_OWNER := samsung
+LOCAL_SRC_FILES := system/app/vzw_msdc_api/vzw_msdc_api.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS

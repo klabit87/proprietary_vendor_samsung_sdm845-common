@@ -7,7 +7,7 @@
 service sec_diag_uart_log /system/bin/sec_diag_uart_log
     class main
     user root
-    group radio oem_2901
+    group radio oem_2901 system
 
 service SMD-daemon /system/bin/smdexe
     class main
