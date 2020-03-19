@@ -25,7 +25,8 @@ PRODUCT_PACKAGES += \
     vzw_msdc_api \
     imsservice \
     QAS_DVC_MSP_VZW \
-    VZWAPNService_sku
+    VZWAPNService_sku \
+    VZWAPNLib_VZW
 
 # common proprietary blobs
 PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/sdm845-common/proprietary)
