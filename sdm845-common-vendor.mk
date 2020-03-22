@@ -16,7 +16,7 @@
 VENDOR_PATH=vendor/samsung/sdm845-common
 
 # include blob-finder
-include vendor/samsung/sdm845-common/find-vendor-blobs.mk
+#include vendor/samsung/sdm845-common/find-vendor-blobs.mk
 
 PRODUCT_PACKAGES += \
     ImsSettings \
@@ -29,4 +29,6 @@ PRODUCT_PACKAGES += \
     VZWAPNLib_VZW
 
 # common proprietary blobs
-PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/sdm845-common/proprietary)
+#PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/sdm845-common/proprietary)
+
+
