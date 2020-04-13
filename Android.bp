@@ -20,7 +20,7 @@ soong_namespace {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentOKGoogleWCD9340",
+	name: "HotwordEnrollmentOKGoogleExWCD9340",
 	owner: "samsung",
 	apk: "proprietary/priv-app/HotwordEnrollmentOKGoogleExWCD9340/HotwordEnrollmentOKGoogleExWCD9340.apk",
 	certificate: "platform",
@@ -31,7 +31,7 @@ android_app_import {
 }
 
 android_app_import {
-	name: "HotwordEnrollmentXGoogleWCD9340",
+	name: "HotwordEnrollmentXGoogleExWCD9340",
 	owner: "samsung",
 	apk: "proprietary/priv-app/HotwordEnrollmentXGoogleExWCD9340/HotwordEnrollmentXGoogleExWCD9340.apk",
 	certificate: "platform",
@@ -40,3 +40,4 @@ android_app_import {
 	},
 	privileged: true,
 }
+

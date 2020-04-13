@@ -17,28 +17,12 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/samsung/sdm845-common
 
-VENDOR_PATH=vendor/samsung/sdm845-common
-
-# include blob-finder
-#include vendor/samsung/sdm845-common/find-vendor-blobs.mk
-
-#PRODUCT_COPY_FILES += \
-#    $(VENDOR_PATH)/proprietary/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so
-#    $(VENDOR_PATH)/proprietary/lib64/libsec-ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsec-ims.so \
-#    $(VENDOR_PATH)/proprietary/lib64/libdiag_system.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libdiag_system.so \
-#    $(VENDOR_PATH)/proprietary/lib64/libresampler_ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libresampler_ims.so \
-#    $(VENDOR_PATH)/proprietary/lib/libresampler_ims.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libresampler_ims.so \
-#    $(VENDOR_PATH)/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/product/lib64/vendor.qti.imsrtpservice@2.0.so \
-#    $(VENDOR_PATH)/proprietary/product/lib64/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/product/lib64/vendor.qti.imsrtpservice@2.1.so \
-#    $(VENDOR_PATH)/proprietary/product/lib/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_SYSTEM)/product/lib/vendor.qti.imsrtpservice@2.0.so \
-#    $(VENDOR_PATH)/proprietary/product/lib/vendor.qti.imsrtpservice@2.1.so:$(TARGET_COPY_OUT_SYSTEM)/product/lib/vendor.qti.imsrtpservice@2.1.so
+VENDOR_PATH=vendor/samsung/sdm845-common/proprietary
 
 PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleExWCD9340 \
     HotwordEnrollmentXGoogleExWCD9340
 
-# common proprietary blobs
-#PRODUCT_COPY_FILES += $(call find-vendor-blobs,vendor/samsung/sdm845-common/proprietary)
 
 	
 
