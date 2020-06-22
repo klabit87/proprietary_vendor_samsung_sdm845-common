@@ -41,3 +41,13 @@ android_app_import {
 	privileged: true,
 }
 
+android_app_import {
+	name: "ims",
+	owner: "samsung",
+	apk: "proprietary/priv-app/ims/ims.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
